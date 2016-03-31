@@ -1,0 +1,15 @@
+@import "_base";
+@import "_colors";
+@import "_typography";
+
+body {
+	font-weight: 300;
+	font-family: $font-primary;
+	font-size: 30px;
+	color: #696f7c;
+
+	a {
+		text-decoration: none;
+	}
+	
+}
