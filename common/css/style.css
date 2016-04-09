@@ -172,7 +172,7 @@ body .b-hero .m-textbox {
     width: 100%; } }
 @media (min-width: 1000px) {
   body .b-hero .m-textbox {
-    bottom: 5%; } }
+    bottom: 8%; } }
 @media (min-width: 1200px) {
   body .b-hero .m-textbox {
     bottom: 15%; } }
@@ -192,6 +192,9 @@ body .b-hero .m-textbox h1 {
     font-size: 33px; } }
 @media (min-width: 1000px) {
   body .b-hero .m-textbox h1 {
+    font-size: 56px; } }
+@media (min-width: 1200px) {
+  body .b-hero .m-textbox h1 {
     font-size: 60px; } }
 body .b-hero .m-textbox .m-textbox_desc {
   padding-bottom: 25px; }
@@ -210,6 +213,35 @@ body .b-hero .m-textbox .m-textbox_button:hover {
 @media (min-width: 800px) {
   body .b-hero .m-textbox .m-textbox_button {
     padding: 20px 45px; } }
+body .b-hero .m-pagin {
+  padding: 10px 10px 0;
+  position: absolute;
+  bottom: 3%;
+  left: 5%; }
+@media (min-width: 700px) {
+  body .b-hero .m-pagin {
+    bottom: 5%;
+    left: 44%; } }
+@media (min-width: 800px) {
+  body .b-hero .m-pagin {
+    left: 45%; } }
+@media (min-width: 1000px) {
+  body .b-hero .m-pagin {
+    left: 46%; } }
+@media (min-width: 1200px) {
+  body .b-hero .m-pagin {
+    left: 47%; } }
+body .b-hero .m-pagin span {
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  width: 12px;
+  height: 12px; }
+body .b-hero .m-pagin span.active {
+  background: none;
+  border: 2px solid #fff;
+  width: 9px;
+  height: 9px; }
 body .b-hero img {
   max-width: 100%; }
 
